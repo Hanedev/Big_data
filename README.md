@@ -1,42 +1,55 @@
-# 📊 Projet Final - Traitement de Données Massives avec Apache Spark
+# Analyse de données massives avec Apache Spark
 
-## 🔍 Objectif
+Projet académique de traitement distribué réalisé sur le jeu de données **San Francisco Fire Department Calls for Service**.
 
-Ce projet a été réalisé dans le cadre d’un cours de Big Data. Il consiste à exploiter la puissance d’**Apache Spark** pour analyser des données massives de manière distribuée. L’objectif principal est d’extraire des insights à partir de données réelles via **Spark SQL** et **PySpark**.
+## Objectif
 
-## 🛠️ Technologies utilisées
+Utiliser Apache Spark pour nettoyer, transformer et analyser un jeu de données réel afin de produire des KPI et des analyses via PySpark et Spark SQL.
 
-- **Apache Spark** (via PySpark)
-- **Spark SQL**
-- **Python 3**
-- **Jupyter Notebook**
+## Stack
 
-## 📁 Contenu
+- Apache Spark
+- PySpark
+- Spark SQL
+- Python
+- Jupyter Notebook
 
-- `Projet Final Apache Spark.ipynb` : Notebook contenant tout le pipeline de traitement, de la lecture des données à l’analyse finale.
-- Requêtes SQL sur Spark
-- Nettoyage et transformation de données avec PySpark
-- Création de DataFrames distribués
-- Analyses statistiques et croisées
-- Visualisations des résultats
+## Contenu
 
-## 📊 Aperçu des analyses
+Le notebook `Projet Final Apache Spark.ipynb` contient :
 
-- Statistiques globales sur les jeux de données
-- Requêtes spécifiques en SQL (tri, agrégation, jointures)
+- chargement du jeu de données ;
+- nettoyage et préparation ;
+- manipulation de DataFrames distribués ;
+- agrégations et analyses ;
+- requêtes analytiques ;
+- production de KPI sur les appels du San Francisco Fire Department.
 
-## 📦 Installation
+## Jeu de données
+
+Source : **San Francisco Fire Department Calls for Service**.
+
+Le projet porte sur l'analyse des interventions et appels du service d'incendie de San Francisco.
+
+## Lancer le projet
 
 ### Prérequis
 
 - Python 3.8+
 - Apache Spark
-- Jupyter Notebook
 - PySpark
+- Jupyter Notebook
 
-### Lancer le projet
+### Exécution
 
 ```bash
 git clone https://github.com/Hanedev/Big_data.git
 cd Big_data
 jupyter notebook
+```
+
+Ouvrir ensuite `Projet Final Apache Spark.ipynb`.
+
+## Compétences mises en œuvre
+
+Data Engineering · PySpark · Spark SQL · Traitement distribué · Analyse de données
